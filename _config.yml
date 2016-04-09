@@ -1,0 +1,40 @@
+# Site settings
+title: Raphael Silva
+description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
+url: 'https://peagasilva.github.io'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Raphael Silva'
+  email: sr.silvaraphael@gmail.com
+  twitter_username: peagasilva
+  facebook_username: sr.silvaraphael
+  github_username: peagasilva
+  linkedin_username: raphaelaugustosilva
+  stackoverflow_username: users/3228888/raphael-silva
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock']

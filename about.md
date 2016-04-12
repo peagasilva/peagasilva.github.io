@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-Hey, foreigner! Welcome to my home page on internet.
+Hello, stranger! Welcome to my home page.
 
-My name is Raphael - aka Peaga. I'm not sure about what I'm writing about yet, but for sure it will be relevant topics to me - be it about software development, life or reflections. Also, I want to keep track of interesting topics I see around and notes to self, so I thought a blog would be a nice place to keep them.
+My name is Raphael, aka Peaga. I'm not sure what I'll be writing about here but the majority of topics will be regarding to software development, life or even reflections. I also want to register some interesting matters and notes to self, making a blog a good place you can find nice stuff.
 
-If you find anything relevant to you in here, drop me a line on [Twitter][@peagasilva]{:target="blank"} if you like.
+If you find here something relevant, feel free to [tweet me][@peagasilva]{:target="blank"} and share your thoughts!
 
 Ready or not, here I go! 🤓
 

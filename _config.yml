@@ -1,6 +1,10 @@
 # Site settings
 title: Raphael Silva
-description: 'Time to step outside...'
+description: 'Make your choice, adventurous Stranger, <br />
+              strike the bell and bide the danger, <br />
+              or wonder til it drives you mad <br />
+              what would have followed if you had. <br />
+              - C. S. Lewis'
 url: 'http://peagasilva.com'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'

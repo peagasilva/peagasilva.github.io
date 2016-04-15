@@ -9,7 +9,7 @@ The process of learning is not that easy. And when I say *learning*, I **do** me
 
 It's been a while since I started reflecting on the learning process and how most of times we are satisfied with the basics. I mean, if you are willing to learn something, why would you not take some time for it?
 
-Today I watched the talk [Blending Cultures: The Best of Functional, Protocol-Oriented, and Object-Oriented Programming][blending_culture_link], and the following phrase took my attention:
+Today I watched the talk [Blending Cultures: The Best of Functional, Protocol-Oriented, and Object-Oriented Programming][blending_culture_link], and the following quote took my attention:
 
 > A Swift application is more than just an Objective-C app translated into Swift. We need to embrace the features and philosophy of the Swift language.
 
@@ -24,7 +24,7 @@ Are we so afraid of changing that we would rather let something great go away? S
 
 We should always look forward, not looking at things we left behind.
 
-Right now, I'm adventuring myself on learning [Functional Programming][functional_programming_link], [Reactive Programming][reactive_programming_link] and [MVVM][mvvm_link]. And probably I'll be writing about this process in here.
+Right now, I'm adventuring myself on learning [Functional Programming][functional_programming_link], [Reactive Programming][reactive_programming_link] and [MVVM][mvvm_link]. And probably I'll be writing about this process here.
 
 [blending_culture_link]:         https://realm.io/news/tryswift-daniel-steinberg-blending-cultures/
 [swift_org_link]:                https://swift.org

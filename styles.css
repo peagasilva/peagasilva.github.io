@@ -1,192 +1,192 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background: #fffafa;
-    color: #222;
-    font-family: Helvetica, Arial;
-    text-align: center;
+  background: #fffafa;
+  color: #222;
+  font-family: Helvetica, Arial;
+  text-align: center;
 }
 
 .wrapper {
-    max-width: 900px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 40px;
-    text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px;
+  text-align: left;
 }
 
 header .wrapper {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
 }
 
 header a {
-    text-decoration: none;
-    color: #222;
+  text-decoration: none;
+  color: #222;
 }
 
 header .site-name {
-    font-size: 2em;
-    color: #222;
-    font-weight: bold;
+  font-size: 2em;
+  color: #222;
+  font-weight: bold;
 }
 
 nav {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 nav li {
-    display: inline-block;
-    margin: 0 7px;
-    line-height: 1.5em;
+  display: inline-block;
+  margin: 0 7px;
+  line-height: 1.5em;
 }
 
 nav li a.selected {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-    margin-bottom: 20px;
-    font-size: 3em;
+  margin-bottom: 20px;
+  font-size: 3em;
 }
 
 h2 {
-    margin: 20px 0;
+  margin: 20px 0;
 }
 
 p {
-    font-size: 1.2em;
-    line-height: 1.7em;
-    margin-bottom: 10px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+  margin-bottom: 10px;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 .description {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .item-list > li {
-    display: block;
-    padding: 20px;
-    border-radius: 20px;
-    background-color: #eee;
-    margin-bottom: 20px;
+  display: block;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #eee;
+  margin-bottom: 20px;
 }
 
 .item-list > li:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .item-list h1 {
-    margin-bottom: 15px;
-    font-size: 1.3em;
+  margin-bottom: 15px;
+  font-size: 1.3em;
 }
 
 .item-list p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .tag-list {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .tag-list li,
 .tag {
-    display: inline-block;
-    background-color: #000;
-    color: #ddd;
-    padding: 4px 6px;
-    border-radius: 5px;
-    margin-right: 5px;
+  display: inline-block;
+  background-color: #000;
+  color: #ddd;
+  padding: 4px 6px;
+  border-radius: 5px;
+  margin-right: 5px;
 }
 
 .tag-list a,
 .tag a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .item-page .tag-list {
-    display: inline-block;
+  display: inline-block;
 }
 
 .content {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .browse-all {
-    display: block;
-    margin-bottom: 30px;
+  display: block;
+  margin-bottom: 30px;
 }
 
 .all-tags li {
-    font-size: 1.4em;
-    margin-right: 10px;
-    padding: 6px 10px;
+  font-size: 1.4em;
+  margin-right: 10px;
+  padding: 6px 10px;
 }
 
 footer {
-    color: #222;
-    font-size: 0.9em;
-    margin-bottom: 3em;
-    margin-top: 2em;
-    text-align: center;
+  color: #222;
+  font-size: 0.9em;
+  margin-bottom: 3em;
+  margin-top: 2em;
+  text-align: center;
 }
 
 footer li {
-    display: inline-block;
-    margin: 0 8px;
+  display: inline-block;
+  margin: 0 8px;
 }
 
 footer p {
-    margin: 0;
+  margin: 0;
 }
 
 blockquote {
-    border-left: 0.3rem solid #d1d1d1;
-    font-style: italic;
-    margin: 2em;
-    padding: 1rem 1.5rem;
+  border-left: 0.3rem solid #d1d1d1;
+  font-style: italic;
+  margin: 2em;
+  padding: 1rem 1.5rem;
 }
 
 article .date {
-    font-size: 0.7em;
-    font-weight: 100;
-    margin-left: 8px;
+  font-size: 0.7em;
+  font-weight: 100;
+  margin-left: 8px;
 }
 
 @media (prefers-color-scheme: dark) {
-    body {
-        background-color: #141414;
-    }
+  body {
+    background-color: #141414;
+  }
 
-    body,
-    header .site-name {
-        color: #ddd;
-    }
+  body,
+  header .site-name {
+    color: #ddd;
+  }
 
-    header a {
-        color: #ddd;
-    }
+  header a {
+    color: #ddd;
+  }
 
-    .item-list > li {
-        background-color: #333;
-    }
+  .item-list > li {
+    background-color: #333;
+  }
 
-    footer {
-        color: #ddd;
-    }
+  footer {
+    color: #ddd;
+  }
 }
 
 @media(max-width: 600px) {
-    .wrapper {
-        padding: 40px 20px;
-    }
+  .wrapper {
+    padding: 40px 20px;
+  }
 }

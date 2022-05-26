@@ -27,12 +27,12 @@ header .wrapper {
 
 header a {
     text-decoration: none;
-    color: #ddd;
+    color: #222;
 }
 
 header .site-name {
     font-size: 2em;
-    color: #ddd;
+    color: #222;
     font-weight: bold;
 }
 
@@ -133,7 +133,7 @@ a {
 }
 
 footer {
-    color: #8a8a8a;
+    color: #222;
     font-size: 0.9em;
     margin-bottom: 3em;
     margin-top: 2em;
@@ -172,8 +172,16 @@ article .date {
         color: #ddd;
     }
 
+    header a {
+        color: #ddd;
+    }
+
     .item-list > li {
         background-color: #333;
+    }
+
+    footer {
+        color: #ddd;
     }
 }
 

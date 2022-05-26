@@ -30,6 +30,10 @@ header a {
   color: #222;
 }
 
+header a:hover {
+  color: #a2a2a2
+}
+
 header .site-name {
   font-size: 2em;
   color: #222;
@@ -66,7 +70,12 @@ p {
 }
 
 a {
-  color: inherit;
+  text-decoration: none;
+  color: #1588ec;
+}
+
+a:hover {
+  color: #a2a2a2
 }
 
 .description {
@@ -92,6 +101,15 @@ a {
 
 .item-list p {
   margin-bottom: 0;
+}
+
+.item-list h1 a {
+  text-decoration: none;
+  color: #222;
+}
+
+.item-list h1 a:hover {
+  color: #1588ec
 }
 
 .tag-list {
@@ -149,6 +167,16 @@ footer p {
   margin: 0;
 }
 
+footer a {
+  margin: 0;
+  text-decoration: none;
+  color: #a2a2a2;
+}
+
+footer a:hover {
+  color: #1588ec
+}
+
 blockquote {
   border-left: 0.3rem solid #d1d1d1;
   font-style: italic;
@@ -178,6 +206,10 @@ article .date {
 
   .item-list > li {
     background-color: #333;
+  }
+
+  .item-list h1 a {
+    color: #ddd;
   }
 
   footer {

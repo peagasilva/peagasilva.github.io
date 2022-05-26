@@ -19,10 +19,6 @@ body {
     text-align: left;
 }
 
-header {
-    background-color: #1e2e74;
-}
-
 header .wrapper {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -168,7 +164,7 @@ article .date {
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #222;
+        background-color: #141414;
     }
 
     body,

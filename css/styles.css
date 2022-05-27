@@ -72,6 +72,15 @@ h1 {
 
 h2 {
   margin: 20px 0;
+  font-size: 1.5em
+}
+
+.resume-period {
+  font-weight: 400;
+}
+
+.resume-period::before {
+  content: "| "
 }
 
 p {
@@ -82,15 +91,35 @@ p {
 
 a {
   text-decoration: none;
-  color: #1588ec;
+  color: #a2a2a2
 }
 
 a:hover {
-  color: #a2a2a2
+  color: #1588ec;
+}
+
+.spacer10 {
+  padding-top: 10px;
+}
+
+.spacer20 {
+  padding-top: 20px;
+}
+
+h2.resume-section-item-title {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 .description {
   margin-bottom: 40px;
+}
+
+.resume-highlights > li {
+  font-size: 1.2em;
+  line-height: 1.7em;
 }
 
 .item-list > li {
@@ -176,16 +205,6 @@ footer li {
 
 footer p {
   margin: 0;
-}
-
-footer a {
-  margin: 0;
-  text-decoration: none;
-  color: #a2a2a2;
-}
-
-footer a:hover {
-  color: #1588ec
 }
 
 blockquote {

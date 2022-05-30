@@ -47,6 +47,7 @@ header a:hover {
 
 header .site-name {
   font-size: 3.75em;
+  color: #222;
   font-weight: bold;
 }
 
@@ -62,13 +63,11 @@ nav li {
 
 nav li a.selected {
   text-decoration: none;
-  /* color: #1588ec; */
   color: #a2a2a2;
 }
 
 nav li a:hover {
   text-decoration: none;
-  /* color: #1588ec; */
   color: #a2a2a2;
 }
 
@@ -152,7 +151,7 @@ h2.resume-section-item-title {
 
 .item-list h1 a {
   text-decoration: none;
-  color: #a2a2a2;
+  color: #222;
 }
 
 .item-list h1 a:hover {
@@ -246,7 +245,7 @@ article .date {
   }
 
   .item-list h1 a {
-    color: #a2a2a2;
+    color: #ddd;
   }
 
   footer {
